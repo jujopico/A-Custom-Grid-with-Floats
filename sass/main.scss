@@ -6,6 +6,10 @@
   }
 }
 
+html {
+  font-size: 62.5%;
+}
+
 // GRID
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
@@ -18,6 +22,10 @@ $gutter-horizontal: 4rem;
 
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
+  }
+
+  &:first-child {
+    margin-top: $gutter-vertical;
   }
 
   @include clearfix;
