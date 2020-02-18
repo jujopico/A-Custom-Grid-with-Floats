@@ -1,0 +1,23 @@
+{
+  "name": "a-custom-grid-with-floats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jujopico/A-Custom-Grid-with-Floats.git"
+  },
+  "author": "jun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jujopico/A-Custom-Grid-with-Floats/issues"
+  },
+  "homepage": "https://github.com/jujopico/A-Custom-Grid-with-Floats#readme"
+}
